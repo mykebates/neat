@@ -4,10 +4,3 @@
 $max-width: em(1024);
 $visual-grid: true;
 $grid-color: red;
-$visual-grid-index: front;
-
-$grid-columns: 10; // Total number of columns in the grid
-$column: golden-ratio(1em, 12); // Column width
-$gutter: golden-ratio(1em, 12); // Gutter between each two columns
-// $show-grid: true;
-// $visual-grid-color: red;
