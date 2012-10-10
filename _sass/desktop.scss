@@ -1,5 +1,7 @@
 @import "bourbon/bourbon";
 @import "variables";
+$visual-grid: true;
+$visual-grid-opacity: 0.3;
 @import "../neat";
 
 header {
