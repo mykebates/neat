@@ -42,11 +42,7 @@
     left: 0;
     margin: 0 auto;
     max-width: $max-width;
-<<<<<<< HEAD
-    opacity: $visual-grid-opacity;;
-=======
     opacity: $visual-grid-opacity;
->>>>>>> rl-visual-grid
     position: fixed;
     right: 0;
     width: 100%;
@@ -57,6 +53,14 @@
 
     @else if $visual-grid-index == front {
       z-index: 9999;
+    }
+
+    @each $breakpoint in $visual-grid-breakpoints {
+      @if $breakpoint != nil {
+        @include breakpoint($breakpoint) {
+          @include grid-column-gradient(gradient-stops($grid-columns));
+        }
+      }
     }
   }
 }

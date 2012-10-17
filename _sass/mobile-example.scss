@@ -1,5 +1,9 @@
 @import "bourbon/bourbon";
 @import "variables";
+$visual-grid: true;
+$visual-grid-opacity: 0.2;
+$visual-grid-color: red;
+$visual-grid-index: front;
 @import "../neat";
 @import "reset";
 
@@ -74,8 +78,6 @@ section {
       }
     }
   }
-
-  $mobile: max-width 500px 6;
 
   &.sixth {
 
