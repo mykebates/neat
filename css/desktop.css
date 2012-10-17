@@ -1,12 +1,16 @@
+/* line 2, ../grid/_grid.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-body {
-  font: 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.618em; }
+/* line 2, ../grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
+/* line 46, ../grid/_visual-grid.scss */
 body:before {
   content: '';
   display: inline-block;
@@ -26,48 +30,65 @@ body:before {
   width: 100%;
   z-index: -1; }
 
+/* line 1, ../typography/_typography.scss */
+body {
+  font: 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.618em; }
+
+/* line 8, ../_sass/desktop.scss */
 header div.header-content {
   zoom: 1;
   max-width: 64em;
   text-align: left;
   margin-left: auto;
   margin-right: auto; }
+  /* line 18, ../_sass/bourbon/addons/_clearfix.scss */
   header div.header-content:before, header div.header-content:after {
     content: "";
     display: table; }
+  /* line 23, ../_sass/bourbon/addons/_clearfix.scss */
   header div.header-content:after {
     clear: both; }
+  /* line 11, ../_sass/desktop.scss */
   header div.header-content div.logo {
     display: block;
     float: left;
     margin-right: 2.35765%;
     width: 48.82117%;
     padding: 2.46085em; }
+    /* line 60, ../grid/_grid.scss */
     header div.header-content div.logo:last-child {
       margin-right: 0; }
     @media screen and (max-width: 54em) {
+      /* line 11, ../_sass/desktop.scss */
       header div.header-content div.logo {
         display: block;
         float: left;
         margin-right: 2.35765%;
         width: 100%; }
+        /* line 60, ../grid/_grid.scss */
         header div.header-content div.logo:last-child {
           margin-right: 0; } }
     @media screen and (min-width: 64em) {
+      /* line 19, ../_sass/desktop.scss */
       header div.header-content div.logo h1 {
         font-size: 4.2358em; } }
 
+/* line 28, ../_sass/desktop.scss */
 section.description {
   zoom: 1;
   max-width: 64em;
   text-align: left;
   margin-left: auto;
   margin-right: auto; }
+  /* line 18, ../_sass/bourbon/addons/_clearfix.scss */
   section.description:before, section.description:after {
     content: "";
     display: table; }
+  /* line 23, ../_sass/bourbon/addons/_clearfix.scss */
   section.description:after {
     clear: both; }
+  /* line 31, ../_sass/desktop.scss */
   section.description div {
     display: block;
     float: left;
@@ -76,55 +97,71 @@ section.description {
     zoom: 1;
     display: block;
     padding: 2em 1.5em; }
+    /* line 60, ../grid/_grid.scss */
     section.description div:last-child {
       margin-right: 0; }
+    /* line 18, ../_sass/bourbon/addons/_clearfix.scss */
     section.description div:before, section.description div:after {
       content: "";
       display: table; }
+    /* line 23, ../_sass/bourbon/addons/_clearfix.scss */
     section.description div:after {
       clear: both; }
     @media screen and (min-width: 74em) {
+      /* line 31, ../_sass/desktop.scss */
       section.description div {
         padding: 4em 0; } }
+    /* line 40, ../_sass/desktop.scss */
     section.description div aside {
       display: block;
       float: left;
       margin-right: 4.82916%;
       width: 12.64237%; }
+      /* line 60, ../grid/_grid.scss */
       section.description div aside:last-child {
         margin-right: 0; }
       @media (max-width: 54em) {
+        /* line 40, ../_sass/desktop.scss */
         section.description div aside {
           display: none; } }
+    /* line 48, ../_sass/desktop.scss */
     section.description div section {
       display: block;
       float: left;
       margin-right: 4.82916%;
       width: 82.52847%; }
+      /* line 60, ../grid/_grid.scss */
       section.description div section:last-child {
         margin-right: 0; }
       @media screen and (max-width: 54em) {
+        /* line 48, ../_sass/desktop.scss */
         section.description div section {
           display: block;
           float: left;
           margin-right: 4.82916%;
           width: 100%; }
+          /* line 60, ../grid/_grid.scss */
           section.description div section:last-child {
             margin-right: 0; } }
+    /* line 56, ../_sass/desktop.scss */
     section.description div#developers {
       border-bottom: 0; }
 
+/* line 62, ../_sass/desktop.scss */
 section.instructions {
   zoom: 1;
   max-width: 64em;
   text-align: left;
   margin-left: auto;
   margin-right: auto; }
+  /* line 18, ../_sass/bourbon/addons/_clearfix.scss */
   section.instructions:before, section.instructions:after {
     content: "";
     display: table; }
+  /* line 23, ../_sass/bourbon/addons/_clearfix.scss */
   section.instructions:after {
     clear: both; }
+  /* line 65, ../_sass/desktop.scss */
   section.instructions section {
     display: block;
     float: left;
@@ -132,24 +169,31 @@ section.instructions {
     width: 100%;
     zoom: 1;
     display: table; }
+    /* line 60, ../grid/_grid.scss */
     section.instructions section:last-child {
       margin-right: 0; }
+    /* line 18, ../_sass/bourbon/addons/_clearfix.scss */
     section.instructions section:before, section.instructions section:after {
       content: "";
       display: table; }
+    /* line 23, ../_sass/bourbon/addons/_clearfix.scss */
     section.instructions section:after {
       clear: both; }
+    /* line 69, ../_sass/desktop.scss */
     section.instructions section aside {
       display: table-cell;
       padding-right: 2.35765%;
       width: 25.58941%;
       padding: 2.35765%; }
+      /* line 39, ../grid/_grid.scss */
       section.instructions section aside:last-child {
         padding-right: 0; }
+    /* line 74, ../_sass/desktop.scss */
     section.instructions section article {
       display: table-cell;
       padding-right: 2.35765%;
       width: 76.76824%;
       padding: 2.35765%; }
+      /* line 39, ../grid/_grid.scss */
       section.instructions section article:last-child {
         padding-right: 0; }
