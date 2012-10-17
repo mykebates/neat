@@ -7,15 +7,6 @@
   background-image: unquote("linear-gradient(left, #{$values})");
 }
 
-@function is-even($int) {
-  @if $int%2 == 0   {
-    @return true;
-  }
-
-  @return false;
-}
-
-
 @function gradient-stops($grid-columns, $color: $visual-grid-color) {
   $transparent: rgba(0,0,0,0);
 
@@ -51,7 +42,11 @@
     left: 0;
     margin: 0 auto;
     max-width: $max-width;
+<<<<<<< HEAD
     opacity: $visual-grid-opacity;;
+=======
+    opacity: $visual-grid-opacity;
+>>>>>>> rl-visual-grid
     position: fixed;
     right: 0;
     width: 100%;
